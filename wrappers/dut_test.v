@@ -1,6 +1,6 @@
 module dut_test(input wire a,b,
                 output wire y);
-  exor DUT_call(.a(a), .b(b), .y(y));
+  dut exor DUT_call(.a(a), .b(b), .y(y));
 
   initial begin
       $dumpfile("waves.vcd");
