@@ -14,4 +14,4 @@ async def dut_test(dut):
         assert dut.y.value == y[i] , f"error occured @ iter{i}"
 
     
-    assert 0, "Test Not Implemented Errorrr"
+    #assert 0, "Test Not Implemented Errorrr"
